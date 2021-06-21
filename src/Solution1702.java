@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Solution {
+class Solution1702 {
     public String maximumBinaryString(String binary) {
         int k = 0, n = binary.length();
         while (k < n && binary.charAt(k) == '1') k++;
