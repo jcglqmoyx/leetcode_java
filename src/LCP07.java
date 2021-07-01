@@ -1,7 +1,5 @@
 public class LCP07 {
-}
-
-//class Solution {
+// class Solution {
 //    public int numWays(int n, int[][] relation, int k) {
 //        int[][] f = new int[k + 1][n];
 //        f[0][0] = 1;
@@ -14,8 +12,6 @@ public class LCP07 {
 //        return f[k][n - 1];
 //    }
 //}
-
-class Solution {
     public int numWays(int n, int[][] relation, int k) {
         int[] f = new int[n];
         f[0] = 1;
