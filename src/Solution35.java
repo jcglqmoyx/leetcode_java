@@ -1,7 +1,4 @@
 public class Solution35 {
-}
-
-class Solution {
     public int searchInsert(int[] nums, int target) {
         int n = nums.length, l = 0, r = n - 1;
         while (l < r) {
