@@ -1,7 +1,4 @@
 public class Solution69 {
-}
-
-class Solution {
     public int mySqrt(int x) {
         long l = 0, r = x;
         while (l < r) {
